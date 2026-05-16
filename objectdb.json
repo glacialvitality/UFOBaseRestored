@@ -1,0 +1,125 @@
+{
+    "Objects": [
+        {
+            "Progress": 2,
+            "Category": "stagepart",
+            "ClassNameSMG2": "UFOSolid",
+            "IsLeftover": false,
+            "ClassNameSMG1": "UFOSolid",
+            "InternalName": "UFOBattleStageC",
+            "ListSMG1": "MapPartsInfo",
+            "ListSMG2": "MapPartsInfo",
+            "Name": "Battlerock -- UFO with Square Slot",
+            "IsUnused": false,
+            "AreaShape": "Any",
+            "Games": 3,
+            "File": "Map",
+            "Notes": "A metallic UFO with a square slot at the center of one side."
+        },
+        {
+            "Progress": 2,
+            "Category": "stagepart",
+            "ClassNameSMG2": "UFOSolid",
+            "IsLeftover": false,
+            "ClassNameSMG1": "UFOSolid",
+            "InternalName": "UFOBattleStageD",
+            "ListSMG1": "MapPartsInfo",
+            "ListSMG2": "MapPartsInfo",
+            "Name": "Battlerock -- UFO with Columns",
+            "IsUnused": false,
+            "AreaShape": "Any",
+            "Games": 3,
+            "File": "Map",
+            "Notes": "A big metallic UFO with four small columns on one side."
+        },
+        {
+            "Progress": 2,
+            "Category": "stagepart",
+            "ClassNameSMG2": "UFOSolid",
+            "IsLeftover": false,
+            "ClassNameSMG1": "UFOSolid",
+            "InternalName": "UFOBattleStageE",
+            "ListSMG1": "MapPartsInfo",
+            "ListSMG2": "MapPartsInfo",
+            "Name": "Battlerock -- Big UFO Platform",
+            "IsUnused": false,
+            "AreaShape": "Any",
+            "Games": 3,
+            "File": "Map",
+            "Notes": "A big metallic UFO."
+        },
+        {
+            "Progress": 2,
+            "Category": "stagepart",
+            "ClassNameSMG2": "UFOSolid",
+            "IsLeftover": false,
+            "ClassNameSMG1": "UFOSolid",
+            "InternalName": "UFOStrongA",
+            "ListSMG1": "MapPartsInfo",
+            "ListSMG2": "MapPartsInfo",
+            "Name": "Battlerock -- Generic UFO Platform",
+            "IsUnused": false,
+            "AreaShape": "Any",
+            "Games": 3,
+            "File": "Map",
+            "Notes": "A metallic UFO platform that is used in Battlerock Galaxy."
+        },
+        {
+            "Progress": 2,
+            "Category": "stagepart",
+            "ClassNameSMG2": "UFOBreakable",
+            "IsLeftover": false,
+            "ClassNameSMG1": "UFOBreakable",
+            "InternalName": "UFONormalB",
+            "ListSMG1": "MapPartsInfo",
+            "ListSMG2": "MapPartsInfo",
+            "Name": "Dreadnought -- Bullet UFO",
+            "IsUnused": false,
+            "AreaShape": "Any",
+            "Games": 3,
+            "File": "Map",
+            "Notes": "A metallic bullet-shaped platform which can be broken by an explosion."
+        },
+        {
+            "Progress": 2,
+            "Category": "stagepart",
+            "ClassNameSMG2": "UFOBreakable",
+            "IsLeftover": false,
+            "ClassNameSMG1": "UFOBreakable",
+            "InternalName": "UFONormalD",
+            "ListSMG1": "MapPartsInfo",
+            "ListSMG2": "MapPartsInfo",
+            "Name": "Battlerock -- Breakable UFO Platform",
+            "IsUnused": false,
+            "AreaShape": "Any",
+            "Games": 3,
+            "File": "Map",
+            "Notes": "A variant of UFOStrongA that can be destroyed by an explosion."
+        }
+    ],
+    "Classes": [
+        {
+            "Progress": 0,
+            "Parameters": {
+                "SW_B": {
+                    "Description": "Causes the platform to start moving on the path once activated.",
+                    "Exclusives": [ "UFOBattleStageC" ],
+                    "Games": 3,
+                    "Needed": false
+                }
+            },
+            "Games": 3,
+            "InternalName": "UFOSolid",
+            "Notes": "",
+            "Name": "UFOSolid"
+        },
+        {
+            "Progress": 0,
+            "Parameters": {},
+            "Games": 1,
+            "InternalName": "UFOBreakable",
+            "Notes": "",
+            "Name": "UFOBreakable"
+        }
+    ]
+}

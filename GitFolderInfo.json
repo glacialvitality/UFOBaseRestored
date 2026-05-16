@@ -1,7 +1,9 @@
 {
-  "Version": 2,
+  "Version": 1,
   "Files": [
-    "include/LavaJamboSunPlanet.h",
-    "source/LavaJamboSunPlanet.cpp"
+    "include/LiveActorUtilExt.h",
+    "include/UFOBase.h",
+    "source/LiveActorUtilExt.cpp",
+    "source/UFOBase.cpp"
   ]
 }
