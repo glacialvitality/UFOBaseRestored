@@ -8,7 +8,7 @@
   ],
   "ModuleData" : [
     {
-      "NameObjFactory": [
+      "ProductMapObj": [
         {
           "Name" : "UFOSolid",
           "Function" : "createExtActor<UFOSolid>",
