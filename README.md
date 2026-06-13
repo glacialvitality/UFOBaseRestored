@@ -1,3 +1,6 @@
+> [!WARNING]
+> We are aware of reports regarding UFOStrongA causing the game to crash for some users. I cannot reproduce this crash for whatever reason. If you find a fix, open a PR with the fix and I can look into merging it. Thank you for your continued patience.
+
 This works with Super Mario Galaxy 2 (SB4E01). Not sure about other regions. Nintendo Switch port is not supported nor planned.
 
 ### Setup
